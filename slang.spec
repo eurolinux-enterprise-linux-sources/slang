@@ -6,7 +6,7 @@
 Summary: The shared library for the S-Lang extension language
 Name: slang
 Version: 2.2.4
-Release: 11%{?dist}
+Release: 9%{?dist}
 License: GPLv2+
 Group: System Environment/Libraries
 Source: ftp://space.mit.edu/pub/davis/slang/v2.2/%{name}-%{version}.tar.bz2
@@ -123,12 +123,6 @@ make check
 %{_libdir}/libslang*.a
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.2.4-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.4-10
-- Mass rebuild 2013-12-27
-
 * Fri Apr 05 2013 Miroslav Lichvar <mlichvar@redhat.com> - 2.2.4-9
 - add support for aarch64 (#926541)
 
